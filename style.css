@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 2px;
+}
+body {
+		background-image:url("img/5.jpg");
+		background-repeat:repeat;
+		background-position: left; 
+  
+	}
+
+.header {
+	width: 22%;
+	margin: 40px auto 0px;
+	color: white;
+	opacity: 0.7;
+  	filter: alpha(opacity=50);
+	background:black;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 28px;
+}
+form, .content {
+	width: 22%;
+	margin: 0px auto;
+	padding: 28px;
+	border: 1px solid #B0C4DE;
+	background-color: black;
+     opacity: 0.7;
+  filter: alpha(opacity=100);
+	border-radius: 0px 0px 10px 10px;
+}
+input[type='password']{
+	background: transparent url("img/pass.jpg") no-repeat;
+	background-position: 10px 50%;
+	padding-right: 10px;
+}
+input[type='text']{
+	background: transparent url("img/user.jpg") no-repeat;
+	background-position: 10px 50%;
+
+}
+input[type='email']{
+	background: transparent url("img/gmail_logo1.jpg") no-repeat;
+	background-position: -3px 50%;
+	background-size: 40px;
+}
+
+p{
+	color:white;
+	margin-left:65px;
+}
+a{
+	color:#1DDFAA;
+}
+a:hover{
+		color:#E8D12F;
+}
+.input-group {
+	margin: 10px 20px 15px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	color:white;
+	margin: 8px;
+	font-size: 18px;
+}
+.input-group input {
+	height: 30px;
+	width: 90%;
+	padding: 5px 20px;
+	color:white;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding-left: 33px;
+}
+#user_type {
+	height: 40px;
+	width: 300px;
+	padding: 0px 16px;
+	background:lightblue;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn{
+	width:250px;
+	padding:10px;
+	margin-left:25px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 10px;
+	
+}
+.btn:hover{
+	color:black;
+	cursor: pointer;
+	background: #DAF7A6;
+}
+.btn2{
+	width:150px;
+	margin:25px;
+	padding: 15px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	
+}
+.btn2:hover{
+	color:black;
+	cursor: pointer;
+	background: #DAF7A6;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+
